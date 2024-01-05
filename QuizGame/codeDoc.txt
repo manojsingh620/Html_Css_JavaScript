@@ -1,0 +1,7 @@
+The code  is for a quiz game that tests the user's knowledge of java programing language. The game consists of 10 questions, each with four possible answers. The user is presented with a question and must select the correct answer from the options provided. The game keeps track of the user's score and displays it at the end of the game. 
+ 
+The code is well-structured and easy to follow. The main function, startQuiz(), initializes the game and calls the showQuestion() function to display the first question. The showQuestion() function displays the question and the answer options, and then calls the selectAnswer() function to handle the user's selection. The selectAnswer() function checks the user's answer and updates the score. If the user has answered all of the questions, the showScore() function is called to display the user's score. 
+ 
+The code uses several JavaScript features, including arrays, objects, and functions. The questions and answer options are stored in an array, and the user's score is stored in a variable. The showQuestion() function uses a for loop to iterate through the answer options and create a button for each option. The selectAnswer() function uses the querySelector() method to find the button that the user clicked and then checks the value of the button's data-correct attribute to determine if the answer was correct. 
+ 
+Overall, the code is well-written and easy to understand. It is a good example of how to use JavaScript to create a simple quiz game.
